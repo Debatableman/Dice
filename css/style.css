@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.dice {
+  font-size: 48px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.game-board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-info, .computer-info {
+  border: 1px solid #333;
+  padding: 10px;
+  width: 45%;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#winner-msg {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
